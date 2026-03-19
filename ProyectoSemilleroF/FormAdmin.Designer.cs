@@ -57,12 +57,12 @@
             // 
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(158)))), ((int)(((byte)(227)))));
             this.guna2Panel1.BorderThickness = 2;
+            this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button7);
             this.guna2Panel1.Controls.Add(this.guna2Button6);
             this.guna2Panel1.Controls.Add(this.guna2Button5);
             this.guna2Panel1.Controls.Add(this.guna2Button4);
             this.guna2Panel1.Controls.Add(this.guna2Button3);
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2Panel4);
             this.guna2Panel1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(158)))), ((int)(((byte)(227)))));
@@ -87,7 +87,7 @@
             this.guna2Button7.ImageSize = new System.Drawing.Size(80, 50);
             this.guna2Button7.Location = new System.Drawing.Point(3, 595);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button7.Size = new System.Drawing.Size(273, 45);
             this.guna2Button7.TabIndex = 7;
             this.guna2Button7.Text = "Generar Reportes";
             // 
@@ -105,7 +105,7 @@
             this.guna2Button6.ImageSize = new System.Drawing.Size(80, 50);
             this.guna2Button6.Location = new System.Drawing.Point(3, 680);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button6.Size = new System.Drawing.Size(273, 45);
             this.guna2Button6.TabIndex = 6;
             this.guna2Button6.Text = "Cerrar Sesion";
             // 
@@ -139,9 +139,9 @@
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageSize = new System.Drawing.Size(80, 50);
-            this.guna2Button4.Location = new System.Drawing.Point(0, 435);
+            this.guna2Button4.Location = new System.Drawing.Point(3, 435);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button4.Size = new System.Drawing.Size(273, 45);
             this.guna2Button4.TabIndex = 4;
             this.guna2Button4.Text = "Gestionar Eventos";
             // 
@@ -157,9 +157,9 @@
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageSize = new System.Drawing.Size(80, 50);
-            this.guna2Button3.Location = new System.Drawing.Point(0, 356);
+            this.guna2Button3.Location = new System.Drawing.Point(3, 356);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(273, 45);
             this.guna2Button3.TabIndex = 3;
             this.guna2Button3.Text = "Gestionar Proyectos";
             // 
@@ -175,9 +175,9 @@
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageSize = new System.Drawing.Size(80, 50);
-            this.guna2Button2.Location = new System.Drawing.Point(0, 280);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 280);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(273, 45);
             this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "Gestionar Semilleros";
             // 
@@ -195,7 +195,7 @@
             this.guna2Button1.ImageSize = new System.Drawing.Size(80, 50);
             this.guna2Button1.Location = new System.Drawing.Point(3, 201);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(276, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(273, 45);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "Gestionar Usuarios";
             // 
@@ -283,7 +283,7 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(77, 82);
             this.guna2ControlBox1.TabIndex = 0;
             // 
-            // FormInvestigador
+            // FormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -292,7 +292,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormInvestigador";
+            this.Name = "FormAdmin";
             this.Text = "FormInvestigador";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
