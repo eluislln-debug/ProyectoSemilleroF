@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoSemilleroF
 {
-    public partial class FormInvestigador : Form
+    public partial class FormAdmin : Form
     {
-        public FormInvestigador()
+        public FormAdmin()
         {
             InitializeComponent();
         }
