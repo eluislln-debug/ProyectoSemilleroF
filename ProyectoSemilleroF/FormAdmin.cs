@@ -32,10 +32,9 @@ namespace ProyectoSemilleroF
             GestionarUsuariosGroupBox.BringToFront();
             guna2GroupBox1.BringToFront();
         }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+
+
+
+
