@@ -44,7 +44,13 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PatrocinadoresGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btnConsultarpatrocinadores = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox29 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button29 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
@@ -60,6 +66,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.guna2TextBox39 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ReporteGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btnConsultarReporte = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox41 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.guna2TextBox40 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -75,6 +82,7 @@
             this.guna2Button36 = new Guna.UI2.WinForms.Guna2Button();
             this.label47 = new System.Windows.Forms.Label();
             this.ReunionGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btnReunionconsulta = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button25 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button26 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button27 = new Guna.UI2.WinForms.Guna2Button();
@@ -89,12 +97,8 @@
             this.guna2TextBox33 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.guna2TextBox34 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SemilleroGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btnConsultarSemillero = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
@@ -135,7 +139,7 @@
             this.UsuariosGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
             this.ConsultarUsuarios = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEliminarUsuario = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.txtIdReporte = new Guna.UI2.WinForms.Guna2TextBox();
@@ -160,19 +164,17 @@
             this.label20 = new System.Windows.Forms.Label();
             this.guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnConsultarpatrocinadores = new Guna.UI2.WinForms.Guna2Button();
-            this.btnReunionconsulta = new Guna.UI2.WinForms.Guna2Button();
-            this.btnConsultarSemillero = new Guna.UI2.WinForms.Guna2Button();
-            this.btnConsultarReporte = new Guna.UI2.WinForms.Guna2Button();
+            this.txtID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.PatrocinadoresGroupBox.SuspendLayout();
             this.ReporteGroupBox.SuspendLayout();
             this.ReunionGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SemilleroGroupBox.SuspendLayout();
             this.EventosGroupBox.SuspendLayout();
             this.GestionarUsuariosGroupBox.SuspendLayout();
@@ -418,6 +420,60 @@
             this.guna2Panel3.Size = new System.Drawing.Size(1183, 88);
             this.guna2Panel3.TabIndex = 2;
             // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
+            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(1057, 30);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox3.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(114, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 24);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Administrador";
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1106, 3);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(77, 82);
+            this.guna2ControlBox2.TabIndex = 1;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(974, 3);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(77, 82);
+            this.guna2ControlBox1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(35, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // PatrocinadoresGroupBox
             // 
             this.PatrocinadoresGroupBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(158)))), ((int)(((byte)(227)))));
@@ -445,6 +501,25 @@
             this.PatrocinadoresGroupBox.Size = new System.Drawing.Size(981, 358);
             this.PatrocinadoresGroupBox.TabIndex = 23;
             this.PatrocinadoresGroupBox.Text = "Gestion De Patrocinadores";
+            // 
+            // btnConsultarpatrocinadores
+            // 
+            this.btnConsultarpatrocinadores.BorderColor = System.Drawing.Color.Teal;
+            this.btnConsultarpatrocinadores.BorderRadius = 4;
+            this.btnConsultarpatrocinadores.BorderThickness = 1;
+            this.btnConsultarpatrocinadores.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarpatrocinadores.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarpatrocinadores.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConsultarpatrocinadores.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnConsultarpatrocinadores.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnConsultarpatrocinadores.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarpatrocinadores.ForeColor = System.Drawing.Color.White;
+            this.btnConsultarpatrocinadores.Location = new System.Drawing.Point(765, 272);
+            this.btnConsultarpatrocinadores.Name = "btnConsultarpatrocinadores";
+            this.btnConsultarpatrocinadores.Size = new System.Drawing.Size(160, 45);
+            this.btnConsultarpatrocinadores.TabIndex = 27;
+            this.btnConsultarpatrocinadores.Text = "Consultar";
+            this.btnConsultarpatrocinadores.Click += new System.EventHandler(this.btnConsultarpatrocinadores_Click);
             // 
             // guna2TextBox29
             // 
@@ -702,6 +777,25 @@
             this.ReporteGroupBox.Text = "Gestion de reporte";
             this.ReporteGroupBox.Click += new System.EventHandler(this.ReporteGroupBox_Click);
             // 
+            // btnConsultarReporte
+            // 
+            this.btnConsultarReporte.BorderColor = System.Drawing.Color.Teal;
+            this.btnConsultarReporte.BorderRadius = 4;
+            this.btnConsultarReporte.BorderThickness = 1;
+            this.btnConsultarReporte.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarReporte.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarReporte.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConsultarReporte.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnConsultarReporte.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnConsultarReporte.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarReporte.ForeColor = System.Drawing.Color.White;
+            this.btnConsultarReporte.Location = new System.Drawing.Point(765, 272);
+            this.btnConsultarReporte.Name = "btnConsultarReporte";
+            this.btnConsultarReporte.Size = new System.Drawing.Size(160, 45);
+            this.btnConsultarReporte.TabIndex = 32;
+            this.btnConsultarReporte.Text = "Consultar";
+            this.btnConsultarReporte.Click += new System.EventHandler(this.btnConsultarReporte_Click);
+            // 
             // guna2TextBox41
             // 
             this.guna2TextBox41.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(71)))));
@@ -957,6 +1051,25 @@
             this.ReunionGroupBox.TabIndex = 23;
             this.ReunionGroupBox.Text = "Gestion de reunion";
             // 
+            // btnReunionconsulta
+            // 
+            this.btnReunionconsulta.BorderColor = System.Drawing.Color.Teal;
+            this.btnReunionconsulta.BorderRadius = 4;
+            this.btnReunionconsulta.BorderThickness = 1;
+            this.btnReunionconsulta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnReunionconsulta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnReunionconsulta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnReunionconsulta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnReunionconsulta.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnReunionconsulta.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReunionconsulta.ForeColor = System.Drawing.Color.White;
+            this.btnReunionconsulta.Location = new System.Drawing.Point(765, 272);
+            this.btnReunionconsulta.Name = "btnReunionconsulta";
+            this.btnReunionconsulta.Size = new System.Drawing.Size(160, 45);
+            this.btnReunionconsulta.TabIndex = 27;
+            this.btnReunionconsulta.Text = "Consultar";
+            this.btnReunionconsulta.Click += new System.EventHandler(this.btnReunionconsulta_Click);
+            // 
             // guna2Button25
             // 
             this.guna2Button25.BorderColor = System.Drawing.Color.Teal;
@@ -1184,60 +1297,6 @@
             this.guna2TextBox34.Size = new System.Drawing.Size(200, 36);
             this.guna2TextBox34.TabIndex = 0;
             // 
-            // guna2ControlBox3
-            // 
-            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
-            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(1057, 30);
-            this.guna2ControlBox3.Name = "guna2ControlBox3";
-            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox3.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(114, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 24);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Administrador";
-            // 
-            // guna2ControlBox2
-            // 
-            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(1106, 3);
-            this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.Size = new System.Drawing.Size(77, 82);
-            this.guna2ControlBox2.TabIndex = 1;
-            // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(16)))), ((int)(((byte)(74)))));
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(974, 3);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(77, 82);
-            this.guna2ControlBox1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(35, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(102, 55);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
             // SemilleroGroupBox
             // 
             this.SemilleroGroupBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(158)))), ((int)(((byte)(227)))));
@@ -1267,6 +1326,25 @@
             this.SemilleroGroupBox.Size = new System.Drawing.Size(954, 348);
             this.SemilleroGroupBox.TabIndex = 23;
             this.SemilleroGroupBox.Text = "Gestion de semillero";
+            // 
+            // btnConsultarSemillero
+            // 
+            this.btnConsultarSemillero.BorderColor = System.Drawing.Color.Teal;
+            this.btnConsultarSemillero.BorderRadius = 4;
+            this.btnConsultarSemillero.BorderThickness = 1;
+            this.btnConsultarSemillero.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarSemillero.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnConsultarSemillero.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnConsultarSemillero.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnConsultarSemillero.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnConsultarSemillero.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarSemillero.ForeColor = System.Drawing.Color.White;
+            this.btnConsultarSemillero.Location = new System.Drawing.Point(762, 272);
+            this.btnConsultarSemillero.Name = "btnConsultarSemillero";
+            this.btnConsultarSemillero.Size = new System.Drawing.Size(160, 45);
+            this.btnConsultarSemillero.TabIndex = 27;
+            this.btnConsultarSemillero.Text = "Consultar";
+            this.btnConsultarSemillero.Click += new System.EventHandler(this.btnConsultarSemillero_Click);
             // 
             // guna2Button13
             // 
@@ -1852,13 +1930,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1027, 266);
             this.dataGridView1.TabIndex = 25;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // UsuariosGroupBox
             // 
             this.UsuariosGroupBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(158)))), ((int)(((byte)(227)))));
+            this.UsuariosGroupBox.Controls.Add(this.label21);
+            this.UsuariosGroupBox.Controls.Add(this.txtID);
             this.UsuariosGroupBox.Controls.Add(this.ConsultarUsuarios);
             this.UsuariosGroupBox.Controls.Add(this.guna2Button11);
-            this.UsuariosGroupBox.Controls.Add(this.guna2Button9);
+            this.UsuariosGroupBox.Controls.Add(this.btnEliminarUsuario);
             this.UsuariosGroupBox.Controls.Add(this.guna2Button10);
             this.UsuariosGroupBox.Controls.Add(this.guna2Button8);
             this.UsuariosGroupBox.Controls.Add(this.txtIdReporte);
@@ -1927,23 +2008,24 @@
             this.guna2Button11.Text = "Guardar ";
             this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
             // 
-            // guna2Button9
+            // btnEliminarUsuario
             // 
-            this.guna2Button9.BorderColor = System.Drawing.Color.Red;
-            this.guna2Button9.BorderRadius = 4;
-            this.guna2Button9.BorderThickness = 1;
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.FillColor = System.Drawing.Color.Red;
-            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(375, 294);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(143, 45);
-            this.guna2Button9.TabIndex = 21;
-            this.guna2Button9.Text = "Eliminar";
+            this.btnEliminarUsuario.BorderColor = System.Drawing.Color.Red;
+            this.btnEliminarUsuario.BorderRadius = 4;
+            this.btnEliminarUsuario.BorderThickness = 1;
+            this.btnEliminarUsuario.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarUsuario.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEliminarUsuario.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEliminarUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEliminarUsuario.FillColor = System.Drawing.Color.Red;
+            this.btnEliminarUsuario.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarUsuario.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarUsuario.Location = new System.Drawing.Point(375, 294);
+            this.btnEliminarUsuario.Name = "btnEliminarUsuario";
+            this.btnEliminarUsuario.Size = new System.Drawing.Size(143, 45);
+            this.btnEliminarUsuario.TabIndex = 21;
+            this.btnEliminarUsuario.Text = "Eliminar";
+            this.btnEliminarUsuario.Click += new System.EventHandler(this.btnEliminarUsuario_Click);
             // 
             // guna2Button10
             // 
@@ -2324,81 +2406,37 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(255, 36);
             this.guna2TextBox1.TabIndex = 26;
             // 
-            // btnConsultarpatrocinadores
+            // txtID
             // 
-            this.btnConsultarpatrocinadores.BorderColor = System.Drawing.Color.Teal;
-            this.btnConsultarpatrocinadores.BorderRadius = 4;
-            this.btnConsultarpatrocinadores.BorderThickness = 1;
-            this.btnConsultarpatrocinadores.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarpatrocinadores.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarpatrocinadores.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnConsultarpatrocinadores.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConsultarpatrocinadores.FillColor = System.Drawing.Color.LightSkyBlue;
-            this.btnConsultarpatrocinadores.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarpatrocinadores.ForeColor = System.Drawing.Color.White;
-            this.btnConsultarpatrocinadores.Location = new System.Drawing.Point(765, 272);
-            this.btnConsultarpatrocinadores.Name = "btnConsultarpatrocinadores";
-            this.btnConsultarpatrocinadores.Size = new System.Drawing.Size(160, 45);
-            this.btnConsultarpatrocinadores.TabIndex = 27;
-            this.btnConsultarpatrocinadores.Text = "Consultar";
-            this.btnConsultarpatrocinadores.Click += new System.EventHandler(this.btnConsultarpatrocinadores_Click);
+            this.txtID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(71)))));
+            this.txtID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtID.DefaultText = "";
+            this.txtID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(96)))), ((int)(((byte)(176)))));
+            this.txtID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtID.Location = new System.Drawing.Point(770, 69);
+            this.txtID.Name = "txtID";
+            this.txtID.PlaceholderText = "";
+            this.txtID.ReadOnly = true;
+            this.txtID.SelectedText = "";
+            this.txtID.Size = new System.Drawing.Size(113, 36);
+            this.txtID.TabIndex = 26;
             // 
-            // btnReunionconsulta
+            // label21
             // 
-            this.btnReunionconsulta.BorderColor = System.Drawing.Color.Teal;
-            this.btnReunionconsulta.BorderRadius = 4;
-            this.btnReunionconsulta.BorderThickness = 1;
-            this.btnReunionconsulta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnReunionconsulta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnReunionconsulta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnReunionconsulta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnReunionconsulta.FillColor = System.Drawing.Color.LightSkyBlue;
-            this.btnReunionconsulta.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReunionconsulta.ForeColor = System.Drawing.Color.White;
-            this.btnReunionconsulta.Location = new System.Drawing.Point(765, 272);
-            this.btnReunionconsulta.Name = "btnReunionconsulta";
-            this.btnReunionconsulta.Size = new System.Drawing.Size(160, 45);
-            this.btnReunionconsulta.TabIndex = 27;
-            this.btnReunionconsulta.Text = "Consultar";
-            this.btnReunionconsulta.Click += new System.EventHandler(this.btnReunionconsulta_Click);
-            // 
-            // btnConsultarSemillero
-            // 
-            this.btnConsultarSemillero.BorderColor = System.Drawing.Color.Teal;
-            this.btnConsultarSemillero.BorderRadius = 4;
-            this.btnConsultarSemillero.BorderThickness = 1;
-            this.btnConsultarSemillero.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarSemillero.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarSemillero.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnConsultarSemillero.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConsultarSemillero.FillColor = System.Drawing.Color.LightSkyBlue;
-            this.btnConsultarSemillero.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarSemillero.ForeColor = System.Drawing.Color.White;
-            this.btnConsultarSemillero.Location = new System.Drawing.Point(762, 272);
-            this.btnConsultarSemillero.Name = "btnConsultarSemillero";
-            this.btnConsultarSemillero.Size = new System.Drawing.Size(160, 45);
-            this.btnConsultarSemillero.TabIndex = 27;
-            this.btnConsultarSemillero.Text = "Consultar";
-            this.btnConsultarSemillero.Click += new System.EventHandler(this.btnConsultarSemillero_Click);
-            // 
-            // btnConsultarReporte
-            // 
-            this.btnConsultarReporte.BorderColor = System.Drawing.Color.Teal;
-            this.btnConsultarReporte.BorderRadius = 4;
-            this.btnConsultarReporte.BorderThickness = 1;
-            this.btnConsultarReporte.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarReporte.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnConsultarReporte.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnConsultarReporte.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnConsultarReporte.FillColor = System.Drawing.Color.LightSkyBlue;
-            this.btnConsultarReporte.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarReporte.ForeColor = System.Drawing.Color.White;
-            this.btnConsultarReporte.Location = new System.Drawing.Point(765, 272);
-            this.btnConsultarReporte.Name = "btnConsultarReporte";
-            this.btnConsultarReporte.Size = new System.Drawing.Size(160, 45);
-            this.btnConsultarReporte.TabIndex = 32;
-            this.btnConsultarReporte.Text = "Consultar";
-            this.btnConsultarReporte.Click += new System.EventHandler(this.btnConsultarReporte_Click);
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label21.Location = new System.Drawing.Point(736, 79);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(24, 17);
+            this.label21.TabIndex = 27;
+            this.label21.Text = "Id ";
             // 
             // FormAdmin
             // 
@@ -2410,7 +2448,6 @@
             this.Controls.Add(this.guna2Button17);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.EventosGroupBox);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.GestionarUsuariosGroupBox);
@@ -2419,6 +2456,7 @@
             this.Controls.Add(this.PatrocinadoresGroupBox);
             this.Controls.Add(this.SemilleroGroupBox);
             this.Controls.Add(this.ReporteGroupBox);
+            this.Controls.Add(this.EventosGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "FormAdmin";
@@ -2432,13 +2470,13 @@
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PatrocinadoresGroupBox.ResumeLayout(false);
             this.PatrocinadoresGroupBox.PerformLayout();
             this.ReporteGroupBox.ResumeLayout(false);
             this.ReporteGroupBox.PerformLayout();
             this.ReunionGroupBox.ResumeLayout(false);
             this.ReunionGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SemilleroGroupBox.ResumeLayout(false);
             this.SemilleroGroupBox.PerformLayout();
             this.EventosGroupBox.ResumeLayout(false);
@@ -2492,7 +2530,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2TextBox txtIdReporte;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
+        private Guna.UI2.WinForms.Guna2Button btnEliminarUsuario;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button11;
         private Guna.UI2.WinForms.Guna2Button btnPatrocinadores;
@@ -2587,5 +2625,7 @@
         private Guna.UI2.WinForms.Guna2Button btnReunionconsulta;
         private Guna.UI2.WinForms.Guna2Button btnConsultarSemillero;
         private Guna.UI2.WinForms.Guna2Button btnConsultarReporte;
+        private System.Windows.Forms.Label label21;
+        private Guna.UI2.WinForms.Guna2TextBox txtID;
     }
 }

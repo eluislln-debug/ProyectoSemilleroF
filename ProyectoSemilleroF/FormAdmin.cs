@@ -21,6 +21,20 @@ namespace ProyectoSemilleroF
             InitializeComponent();
         }
 
+        public void EliminarUsuario(int idUsuario)
+        {
+            SqlCommand eliminar;
+            eliminar = new SqlCommand("delete from Usuario where idUsuario= @idUsuario", cn.Conectar());
+            eliminar.CommandType = CommandType.Text;
+            eliminar.Parameters.AddWithValue("@idUsuario", SqlDbType.Int).Value = idUsuario;
+            if (MessageBox.Show("¿Estas seguro que desea eliminar el registro de usuario?", "SemilleroProyecto", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button3) == System.Windows.Forms.DialogResult.Yes)
+            {
+                eliminar.ExecuteNonQuery();
+                MessageBox.Show("El usuario sera eliminado");
+                ConsultarUser();
+            }
+        }
+
         public void ConsultarUser()
         {
             SqlCommand consultausuarios;
@@ -289,6 +303,23 @@ namespace ProyectoSemilleroF
         private void btnEventosConsulta_Click(object sender, EventArgs e)
         {
             ConsultarEvento();
+        }
+
+        private void btnEliminarUsuario_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtID.Text))
+            {
+                MessageBox.Show("Porfavor indique el id del usuario que desea eliminar", "SemilleroProyecto", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                EliminarUsuario(int.Parse(txtID.Text));
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
         }
     }
 }
