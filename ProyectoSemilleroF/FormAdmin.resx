@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnPatrocinadores.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAABGdBTUEAALGPC/xhBQAAvABJREFUeF7s
         vQV0nGeyLXoev/vOPfcOBM22mNmWGeIkjmNKYmaLmdmSGcIMZkrscDJhNIlZZpJB0ExqRkn7raq/W5I7
@@ -926,7 +926,7 @@
         X2fBTfRtdYkIAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSemilleros.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqUAAAFxCAYAAABKn9GWAAAABGdBTUEAALGPC/xhBQAA0TJJREFUeF7s
         vXd43XtW3pubkEvvATKEhBpIYBgCAQJJSKgphHJzuQkBZs5xUdfuvaq5W27qve/epa3e5d6LZFm9994s
@@ -1824,7 +1824,7 @@
         hBBCCCGEEEIIIYQQQgghhBBCCCGEEEJ+Vfz/rDcj2qUp0PsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2Button7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnReportes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqQAAAFxCAYAAAClXbqoAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         vQd0HOl1pr3OYW2v17vrdVhnb7B/27IkZ6+93rW9tuQkW7LlIK2T5CBpZkgAnQM6dyMyDRNyTp1zQGIA
@@ -3104,7 +3104,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="guna2Button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnCerrarsesion.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqQAAAFxCAYAAAClXbqoAAAABGdBTUEAALGPC/xhBQAAcBZJREFUeF7t
         3Qd4G/d9N/D3zXBmM9rMttk7TbOa3SZpOpP07Xjb7NE3oxnNtkUSwC0cbgEgKVKiuABwk5jE4JZkx3Ft
@@ -3588,7 +3588,7 @@
         AADg5vf/ASBLNNJFKI4eAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnReuniones.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqQAAAFxCAYAAAClXbqoAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /Qd4XPtd54/v8qcESEJCCAmwgUASIGQhlAA/skAgSwlls7Qs7LILpNxrW9L03ruKm3qxep3eu6q7LMuy
@@ -5187,7 +5187,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEventos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqQAAAFxCAYAAAClXbqoAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /QV0HEmX5o1/O7M7O0z/3W//S7MzLzSYZDFLltmWhaUqoZmZxczMMolLKrHM3e12t91mSWa3G9xmW4xm
@@ -6362,7 +6362,7 @@
         MAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzD6OH/B4RM0odpwKpcAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnProyectos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqUAAAFxCAYAAABKn9GWAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /Qd0XNe2nok6+9rX+Q3bbXe7PXzb1+m5X7vtdreH/fzs63uOSCJXQM6oDIBBEiMIgjkTJHLOOQdGkUoM
@@ -8185,7 +8185,7 @@
         QPCL8f8BOL3DszA1GJIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUsuarios.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqQAAAFxCAYAAAClXbqoAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /QdYXGl254///uscdvKMw8w4je11Gmd77fU6zHhsr8c5rXPYmeluSYTKgcoZhLIEiCSRoXLORVCOCAQI
@@ -12797,33 +12797,6 @@
   </data>
   <metadata name="guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="idUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="nombreUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="apellidoUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="contraseñaUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="emailUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="telefonoUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="estadoUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="rolUsuario.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="idReporte.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>

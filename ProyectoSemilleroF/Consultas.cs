@@ -41,7 +41,7 @@ namespace ProyectoSemilleroF
                     //if (Convert.ToString(idUsuario) == dr["idUsuario"].ToString() & contraseñaUsuario == dr["contraseñaUsuario"].ToString() & "Investigador" == dr["rolUsuario"].ToString())
                     //{
                        //MessageBox.Show("¡Bienvenido! Continúa impulsando tu semillero de investigación desde este panel.");
-                        //FormAdmin frm = new FormAdmin();
+                        //FormInvestigador frm = new FormInvestigador();
                         //frm.Show();
                         //EstadoConexion = true;
                     //}
