@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="ConsultarConParametro.cs" />
     <Compile Include="Consultas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
